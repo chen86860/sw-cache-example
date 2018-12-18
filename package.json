@@ -4,10 +4,18 @@
   "main": "index.js",
   "author": "Jack <chen86860@126.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build":"parcel build src/index.html"
+  },
   "dependencies": {
     "@types/react": "^16.7.17",
     "@types/react-dom": "^16.0.11",
     "react": "^16.6.3",
     "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3",
+    "typescript": "^3.2.2"
   }
 }

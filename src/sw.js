@@ -1,5 +1,5 @@
 var CACHE_NAME = 'cache-v1'
-var urlsToCache = ['/', '/styles/main.css', '/script/main.js']
+var urlsToCache = ['/', 'index.html']
 
 self.addEventListener('install', function(event) {
   // Perform install steps
